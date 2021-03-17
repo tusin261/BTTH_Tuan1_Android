@@ -24,7 +24,6 @@
         app:srcCompat="@drawable/ic_lock_152879_1" />
 
     <TextView
-        android:textAlignment="center"
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,12 +33,11 @@
         android:layout_marginEnd="114dp"
         android:layout_marginRight="114dp"
         android:layout_marginBottom="352dp"
-        android:width="130"
-        android:height="58"
         android:fontFamily="@font/roboto_medium"
         android:text="FORGET\nPASSWORD"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="25"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,18 +53,18 @@
         android:layout_marginEnd="178dp"
         android:layout_marginRight="178dp"
         android:layout_marginBottom="267dp"
-        android:width="302"
-        android:height="53"
         android:fontFamily="@font/roboto_medium"
         android:text="Provide your account’s email for which you\n want to reset your password"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="15"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
